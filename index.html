@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav aria-label="Menu principal">
+
+            <!--Logo Web Agency-->
+            <div>
+                <img src="images/logo.png" alt="logo_webagency">
+            </div>
+
+            <!--Menu - Barre de navigation-->
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--Carousel-->
+        <section class="carousel">
+            
+            <!--Images Carrousel-->
+            
+
+            <!--Eléments de texte sur l'image-->
+            <div class="text_carousel">
+                <h1><span>WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS!</h1>
+                <P>Vous avez un projet web ? La Webagency vous aide à le réaliser.</P>
+                <button>Plus d'infos</button>
+                <img src="images/slider/bg1.jpg" alt="bg1-girl">
+
+            </div>
+
+            <!--Icônes chevrons sur image-->
+            <div>
+                
+            </div>
+
+        </section>
+        
+        <section class="services">
+            <h2>NOS SERVICES</h2>
+            <p>De taille humaine, notre agnce vous accompagne du début à la fin de votre projet. Nos projets vous aident à optimiser l'expérience utiliseteur et tirer le meilleur potentiel de chaque support, du web au mobile.</p>
+
+            <div class="details_services">
+                
+                <div>
+                    <img src="images/main-feature.png" alt="main_feature">
+                </div>
+    
+                <div>
+                    <h3>UX design</h3>
+                    <p>Une équipe passionnée qui place l'utlisateur final au centre de sa démarche pour une technique plus humaine.</p>
+                    
+                    <!--Icone rond qui tourne-->
+                    <i class="fas fa-circle fa-xs"></i>
+                </div>
+
+                <div>
+                    <h3>UI design</h3>
+                    <p>Une interface optimisée qui permet à votre site web de rester à la page au gré des évolutions techniques et des nouveaux usages.</p>
+                </div>
+
+                <div>
+                    <h3>SEO</h3>
+                    <p>Nos experts en référencement vous permettent d'améliorer le positionnement de votre site afin d'augmenter votre conversion.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>NOS PROJETS</h2>
+            <p>Beaucoup d'entreprises et particuliers nous ont fait confiance pour leurs projets ! Découvrez une sélection de nos réalisations tendances, modernes et innovantes.</p>
+            <nav aria-label="Menus des projets par thème">
+                <ul>
+                    <li>Tous</li>
+                    <li>Créations</li>
+                    <li>Corporate</li>
+                    <li>Portfolio</li>
+                </ul>
+            </nav>
+            <div>
+                <img src="images/portfolio/01.jpg" alt="Projet_opticien">
+                <img src="images/portfolio/02.jpg" alt="Projet_lapin">
+                <img src="images/portfolio/03.jpg" alt="Projet_hairstyle">
+                <img src="images/portfolio/04.jpg" alt="Projet_agencepub">
+                <img src="images/portfolio/05.jpg" alt="Projet_boutique">
+                <img src="images/portfolio/06.jpg" alt="Projet_agencevoyages">
+                <img src="images/portfolio/07.jpg" alt="Projet_fusée">
+                <img src="images/portfolio/08.jpg" alt="Projet_architectes">
+            </div>
+        </section>
+
+        <section id="contact">
+            
+            
+            <!--Carte-->
+            <iframe src="https://maps.app.goo.gl/mEvMR7Qv9yHSAYvv6" width="100vw" height="700px">MapsHauteville</iframe>
+            
+            <!--Filtre-->
+            <div class="filtre"></div>
+
+            <!--Formulaire de contact-->
+            <div class="bloc_contact"></div>
+                <h2>Contact Info</h2>
+                <h3>WebAgency SAS</h3>
+                <address>
+                    <p>25 rue de Hauteville 75010 PARIS</p>
+                    <p>Tel: <a href="+33102030405">+33102030405</a></p>
+                </address>
+                <div class="div_input"></div>
+                    <form action="">
+                        <label for="nom"></label>
+                        <input type="text" placeholder="Nom">
+
+                        <label for="email"></label>
+                        <input type="email" placeholder="Email" required>
+                        
+                        <label for="sujet"></label>
+                        <input type="text" placeholder="Sujet">
+                        
+                        <label for="message"></label>
+                        <textarea name="message" id="message" placeholder="Votre message..."></textarea>
+                    </form>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
